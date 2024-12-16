@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Montserrat Underline';
+    background-color: #d3b59c;
+}
+.header {
+    height: 200px;
+    background-color: #58442d;
+}
+.header a {
+    text-decoration: none;}
+    .mainnav ul {
+        display: flex;
+        margin-left: 600px;
+        font-size: 45px;
+        list-style: none;
+        text-align: right;
+    }
+    .mainnav a {
+        padding: 40px;
+        color: #ffffff;
+    }
+    .mainnav a:hover, .mainnav a.active {
+        color: rgb(133, 131, 129);
+    }
+    #logo {
+        font-size: 50px;
+        color: #ffffff;
+    }
+    .mama {
+        background: url(/img/image.png);
+    }
+    .mama p {
+        font-size: 45px;
+        text-align: left;
+        font-family:  Helvetica, sans-serif;
+    }
+    .mama h1 {
+        text-align: center;
+    }
+    .mama img {
+        width: 400px;
+        margin-left: 300px;
+    }
+    .papa {
+        background-color: #f5f3f3;
+        height: 120px;
+        padding: 15px;
+        text-align: center;
+    }
+    .foto {
+        display: flex;
+        height: 300px;
+    }
+    .foto img {
+        width: 400px;
+        padding: 50px;
+        margin-left: 350px;
+    }
+    .text {
+        height: 350px;
+        font-size: 30px;
+        padding: 35px;
+        margin-left: 200px;
+    }
+    .primer {
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+    }
+    .pog {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        background-color: #ebca9f;
+    }
+    .pog img {
+        padding: 50px;
+        width: 600px;
+    }
+    .gog {
+        display: flex;
+        background-color: #f0d1a9;
+        line-height: 0px;
+    }
+    .gog p{
+        font-size: 60px;
+        padding: 80px;
+        margin-left: 23px;
+        line-height: 0px;
+        text-align: center;
+    }
+    .form {
+        max-width: 420px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .form input {
+        padding: 10px;
+        font-size: 23px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        margin-bottom: 20px;
+        background-color: aliceblue;
+    }
+    .form button {
+        background-color: #020202;
+        padding: 16px;
+        border-radius: 10px;
+        border: rgb(255, 255, 255) 3px solid;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    .form button:hover {
+        color: #ad3535;
+        background-color: #f3f2ee;
+    }
+    .form h1 {
+        text-align: center;
+    }
+    .footer_icons {
+        display: inline-block;
+        margin-left: 1900px;
+    }
+    .footer_block {
+        display: inline-block;
+        width: 335px;
+        text-align: center;
+    }
+    footer a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #000000;
+    }
+    footer a:hover {
+        color: #d62929;
+    }
